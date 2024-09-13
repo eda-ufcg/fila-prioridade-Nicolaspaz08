@@ -6,13 +6,13 @@ public class RoteiroTest {
     
     @Test
 	public void test() {
-		FilaPrioridade heap = new HeapFilaPrioridade(5);
-		FilaPrioridade insereFinal = new InsereFinalFilaPrioridade(5);
+		//FilaPrioridade heap = new HeapFilaPrioridade(5);
+		//FilaPrioridade insereFinal = new InsereFinalFilaPrioridade(5);
 		FilaPrioridade insertion = new InsereOrdenadoFilaPrioridade(5);
-		FilaPrioridade[] estrategias = new FilaPrioridade[3];
-		estrategias[0] = heap;
-		estrategias[1] = insereFinal;
-		estrategias[2] = insertion;
+		FilaPrioridade[] estrategias = new FilaPrioridade[1];
+		//estrategias[0] = heap;
+		//estrategias[1] = insereFinal;
+		estrategias[0] = insertion;
 
 
 		// 1, 2, 3, 4, 5
